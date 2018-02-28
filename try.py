@@ -1,4 +1,5 @@
-a = {1,2,3,6}
-b = {2,3,4,5}
+from distutils.dir_util import copy_tree
 
-print((a-b))
+copy_tree("C:\\Tanmay\\PDFs","C:\\Tanmay\\work")
+
+print("DONE")
